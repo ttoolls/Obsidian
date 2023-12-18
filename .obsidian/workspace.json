@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tmux.md",
+                "file": "Notes/tmux.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "d293d5fde34d29a5",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tmux.md",
+                "file": "Notes/tmux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tmux.md",
+                "file": "Notes/tmux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tmux.md"
+                "file": "Notes/tmux.md"
               }
             }
           }
@@ -163,7 +162,7 @@
   "active": "21d70ea609de41ae",
   "lastOpenFiles": [
     "Notes/Fish shell.md",
-    "tmux.md",
+    "Notes/tmux.md",
     "Projects",
     "Notes"
   ]
