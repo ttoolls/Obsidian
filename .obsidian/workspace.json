@@ -11,8 +11,12 @@
             "id": "e9f4086fde4052e6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2023-12-19.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Daily Notes/2023-12-19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Daily Notes/2023-12-19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Daily Notes/2023-12-19.md"
+              }
             }
           }
         ],
@@ -156,8 +164,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "21d70ea609de41ae",
+  "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
+    "Daily Notes/2023-12-19.md",
     "Daily Notes",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "Projects/Orion/Abus/Information.md",
