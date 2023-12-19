@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a2d6bd264a4bc21a",
+        "id": "7d72f4677abadbb8",
         "type": "tabs",
         "children": [
           {
-            "id": "7aa24be5f0634662",
+            "id": "e9f4086fde4052e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/Fish shell.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61071fe43b722286",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notes/tmux.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/tmux.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/tmux.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +118,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Notes/tmux.md"
-              }
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "1df9e7180fed7770",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1cbc5c073da4aa00",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -156,12 +149,25 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "audio-recorder:Start/stop recording": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "21d70ea609de41ae",
   "lastOpenFiles": [
+    "Daily Notes",
+    "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "Projects/Orion/Abus/Information.md",
+    "Images/Pasted image 20231219064138.png",
+    "Images",
+    "Notes/Youtube.md",
     "Notes/Fish shell.md",
+    "Projects/Orion/Abus",
+    "Projects/Orion",
+    "Projects/Untitled.md",
     "Notes/tmux.md",
     "Projects",
     "Notes"
