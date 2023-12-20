@@ -11,7 +11,7 @@
 - [x] сделать отдельный флажок на включение сервиса и по умолчанию (если не передавалось значение извне), он будет равен build_type == "Debug". И этот флажок нужно засунуть в корневой CMakeLists  
 - [x] there should be subsystem test, which checks that non of the debug endpoints is reachable   The test should always fail for PR/nightly builds   The test should never fail for release builds
 - [ ] Create Jira task: check if aoc_debug_endpoints are not avaliable in release builds (see [[#18/12/2023]])
-- [ ] Rename t_auth_installer to t_auth_installer_company
+- [x] Rename t_auth_installer to t_auth_installer_company
 - [x] Rename CMake project to debug_endpoints
 - [ ] Check if the service is run on start
 - [x] Write control_client: нужно написать свой client, как это сделано для doors, persons, transponders, ...
