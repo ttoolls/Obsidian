@@ -5,6 +5,10 @@ export SYSROOTS=/opt/poky/active/sysroots/
 From /build*: export CONFIG_PATH=$(find ../resources -name 'config.json')
 
 ####  Built
+imx8:
+cmake .. -DCMAKE_TOOLCHAIN_FILE=../cmake/poky-sdk-host86-64.cmake -DBUILD_WITH_TESTS=ON -DCMAKE_BUILD_TYPE=Debug -DENABLE_LOG_SENSITIVE=ON -DBUILD_WITH_CODECOVERAGE=ON
+
+x86
 cmake .. -DCMAKE_TOOLCHAIN_FILE=../cmake/poky-sdk-aoc-imx8.cmake -DBUILD_WITH_TESTS=ON -DCMAKE_BUILD_TYPE=Debug -DENABLE_LOG_SENSITIVE=ON -DBUILD_WITH_CODECOVERAGE=ON
 
 make -j6 aoc_debug_endpoints
