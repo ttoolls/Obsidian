@@ -1,4 +1,11 @@
 ## [AOCCO-1468] debug-service: create basic service
+## Learn
+- [ ] [[tmux]]
+- [ ] [[Fish shell]]
+- [ ] [[vim IDE]]
+- [ ] [[CMake]]
+- [ ] [[QEMU]]
+- [ ] [[Debug from VS Code]]
 ## Current Tasks:
 - [x] Create endpoint, which allows to execute arbitrary SQL queries   Body shall contain a list of SQL-query-strings, which are executed as a single transaction, one by one, in the order they are provided  
 - [x] Create endpoint, which allows to send custom mqtt message to custom topic Body: string:    string: payload  
@@ -64,10 +71,13 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 ## Daily notes
 ### 20/12/2023
+Дописал питоновский тест, нужно проверить.
+Переименовал все, убрал из названия слово aoc_, оказывается, оно было лишним. Проверил, что Дженкинс все собрал и даже не упал на тестах (кроме API-тестов, которые должны валиться в Debug-е).
+Выкачал с Дженкинса вайловую систему для QEMU, нужно проверить, что ничего не сломалось, а мой сервис запускается автоматически (скорее всего, так и есть, иначе API тесты бы не упали)
 
 ### 19/12/2023
 Пофиксил API тесты: добавил для каждой endpoint, как сакзал Александр.
-#Изучаю с Tmux-ом и Fish shell, думаю не переключиться ли на ZSH.
+#Изучаю с [[tmux]] и [[Fish shell]], думаю не переключиться ли на ZSH.
 #Изучаю Obsidian.
 #Изучаю PyTest
 Пофиксил автозапуск своего сервиса: нужно было прописать его в aoc_rest_group.target.in (плюс была опечатка) и переименовать файл aoc_aoc_debug_endpoints.service.in в aoc_debug_endpoints.service.in
