@@ -3,5 +3,6 @@
   "calendar",
   "templater-obsidian",
   "obsidian-git",
-  "periodic-notes"
+  "periodic-notes",
+  "telegram-sync"
 ]

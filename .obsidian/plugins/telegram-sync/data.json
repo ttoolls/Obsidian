@@ -1,0 +1,39 @@
+{
+  "botToken": "6468394515:AAFrTKt6FhrICfquirjEuhaz7QUoNSg5vl8",
+  "newNotesLocation": "",
+  "appendAllToTelegramMd": false,
+  "templateFileLocation": "",
+  "deleteMessagesFromTelegram": true,
+  "needToSaveFiles": true,
+  "newFilesLocation": "",
+  "allowedChatFromUsernames": [],
+  "allowedChats": [
+    "anatolyselivanov"
+  ],
+  "mainDeviceId": "",
+  "pluginVersion": "2.2.0",
+  "telegramSessionType": "bot",
+  "telegramSessionId": 20231219224458690,
+  "betaVersion": "",
+  "connectionStatusIndicatorType": "CONSTANT",
+  "cacheCleanupAtStartup": false,
+  "messageDistributionRules": [
+    {
+      "messageFilterQuery": "{{all}}",
+      "messageFilterConditions": [
+        {
+          "conditionType": "all",
+          "operation": "",
+          "value": ""
+        }
+      ],
+      "templateFilePath": "Templates/Telegram_msg_tmp.md",
+      "notePathTemplate": "Telegram/{{content:30}} - {{messageTime:YYYYMMDDHHmmssSSS}}.md",
+      "filePathTemplate": "Telegram/{{file:type}}s/{{file:name}} - {{messageTime:YYYYMMDDHHmmssSSS}}.{{file:extension}}",
+      "reversedOrder": true
+    }
+  ],
+  "defaultMessageDelimiter": true,
+  "parallelMessageProcessing": false,
+  "topicNames": []
+}

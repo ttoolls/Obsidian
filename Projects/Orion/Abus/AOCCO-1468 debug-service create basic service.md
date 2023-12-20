@@ -14,11 +14,13 @@
 - [ ] Rename t_auth_installer to t_auth_installer_company
 - [ ] Rename CMake project to debug_endpoints
 - [ ] Check if the service is run on start
-- [ ] Write control_client: нужно написать свой client, как это сделано для doors, persons, transponders, ...
-- [ ] Prepare PyTest (call REST API "send_mqtt_message" and catch the message)
+- [x] Write control_client: нужно написать свой client, как это сделано для doors, persons, transponders, ...
+- [x] Prepare PyTest (call REST API "send_mqtt_message" and catch the message)
 - [ ] Test if the endpoints are avaliable if the flag is OFF
+- [ ] Run Python tests
 - [ ] Copy PyTest settings from Alex's brunch (see [[#18/12/2023]])
 - [ ] Настроить Debug from VS Code
+- [ ] Забилить часы!!!
 
 ## Description
 
@@ -61,6 +63,8 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 
 ## Daily notes
+### 20/12/2023
+
 ### 19/12/2023
 Пофиксил API тесты: добавил для каждой endpoint, как сакзал Александр.
 #Изучаю с Tmux-ом и Fish shell, думаю не переключиться ли на ZSH.
