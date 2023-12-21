@@ -1,7 +1,7 @@
 ## [AOCCO-1468] debug-service: create basic service
 ## Learn
 [Linux и Unix инструменты](https://www.youtube.com/playlist?list=PLAk6CfuV7hyqHyQVHZMQRihAfebXpxn2O)
-- [ ] [[tmux]]
+- [x] [[tmux]]
 - [ ] [[Fish shell]]
 - [ ] [[vim IDE]]
 - [ ] [[CMake]]
