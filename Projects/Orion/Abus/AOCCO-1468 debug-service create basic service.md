@@ -3,7 +3,6 @@
 [Linux и Unix инструменты](https://www.youtube.com/playlist?list=PLAk6CfuV7hyqHyQVHZMQRihAfebXpxn2O)
 - [x] [[tmux]]
 - [ ] [[Fish shell]]
-- [ ] [[vim IDE]]
 - [ ] [[CMake]]
 - [ ] [[QEMU]]
 - [ ] [[Debug from VS Code]]
