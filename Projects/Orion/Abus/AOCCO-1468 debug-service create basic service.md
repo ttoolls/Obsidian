@@ -25,10 +25,11 @@
 - [x] Write control_client: нужно написать свой client, как это сделано для doors, persons, transponders, ...
 - [x] Prepare PyTest (call REST API "send_mqtt_message" and catch the message)
 - [ ] Test if the endpoints are avaliable if the flag is OFF
+- [x] Setup Python venv and dependences
 - [ ] Run Python tests
 - [ ] Copy PyTest settings from Alex's brunch (see [[#18/12/2023]])
 - [ ] Настроить Debug from VS Code
-- [ ] Забилить часы!!!
+- [x] Забилить часы!!!
 
 ## Description
 
