@@ -26,8 +26,26 @@
 - [x] Run Python tests
 - [x] Забилить часы!!!
 - [x] Test if the endpoints are avaliable if the flag is OFF
-- [ ] Create Jira task: check if aoc_debug_endpoints are not avaliable in release builds (see [[#18/12/2023]])
-- [ ] Copy PyTest settings from Alex's brunch (see [[#18/12/2023]])
+- [x] Create Jira task: check if aoc_debug_endpoints are not avaliable in release builds (see [[#18/12/2023]])
+- [x] Copy PyTest settings from Alex's brunch (see [[#18/12/2023]])
+- [ ] Пробежаться по всем моим файлам и сохранить, чтобы поправить выравнивание
+- [ ] По всем файлам проверить имена на соответствие camel_ case
+- [ ] По всем хедерам проверить, что private members are first
+- [ ] [[#Нужно поправить API тесты]]
+- [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
+- [ ] Delete unused endpoint: `"/v1/debug_endpoints`
+- [ ] [[#SQL query execution should return JSON]]
+
+- [ ] **debug_endpoints_subsystemtests.cc**
+	- [ ] Check unused includes in debug_endpoints_subsystemtests.cc
+	- [ ]  In file **debug_endpoints_subsystemtests.cc** If I got it properly, the test will leave DB not in the state is was initially. This is not a good practice in general; and this is completely not acceptable for this particular case, since after the tests the image may be used in various tasks. But the pre-created JWT tokens can no longer be used to authorize REST requests, since the database has been cleared.
+	- [ ] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
+	- [ ] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
+	- [ ] line 101: UB if vector/list is empty
+- [ ] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
+- [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
+- [ ] 
+
 
 ## Description
 
@@ -70,6 +88,40 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 
 ## Daily notes
+### 25/12/2023
+##### Нужно поправить API тесты:
+в файле debug_endpoints_tests.json после
+```
+15 "exec": [
+16	"pm.test('Endpoint should not exist', function () {",
+17	" pm.response.to.have.status(404);",
+```
+добавить
+```
+build_type = pm.environment.get("build_type");
+if ( build_type === 'Release' ) {
+	pm.response.to.be.error;
+	pm.response.to.have.status(404);
+} else { 
+	// ... status 200/400/500?? 
+}
+```
+
+##### SQL query execution should return JSON
+```
+{ 
+	"results": [ 
+		{ 
+			"success": true, 
+			"message": "" 
+		},
+		{ 
+			"success": false, 
+			"message": "Error goes here" 
+		} 
+	]
+}
+```
 ### 20/12/2023
 Дописал питоновский тест, нужно проверить.
 Переименовал все, убрал из названия слово aoc_, оказывается, оно было лишним. Проверил, что Дженкинс все собрал и даже не упал на тестах (кроме API-тестов, которые должны валиться в Debug-е).
