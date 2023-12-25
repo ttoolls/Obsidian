@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Fish shell.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Fish shell.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Fish shell.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Fish shell.md"
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
               }
             }
           }
@@ -166,10 +166,15 @@
   },
   "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
+    "Telegram/А вы в скольких местах из виде - 20231224185917610.md",
+    "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
+    "Telegram/videos",
+    "Notes/Fish shell.md",
+    "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
+    "Telegram/Вакансия Яндекса__базовые алго - 20231221212350341.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "Notes/tmux.md",
     "Projects/Orion/Abus/000Information.md",
-    "Notes/Fish shell.md",
     "Notes/Telegram.md",
     "Daily Notes/2023-12-19.md",
     "Templates/Telegram_msg_tmp.md",
@@ -188,7 +193,6 @@
     "Projects/Orion/Abus",
     "Projects/Orion",
     "Projects/Untitled.md",
-    "Projects",
-    "Notes"
+    "Projects"
   ]
 }
