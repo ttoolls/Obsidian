@@ -33,15 +33,15 @@
 - [x] По всем хедерам проверить, что private members are first
 - [ ] [[#Нужно поправить API тесты]]
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
-- [ ] Delete unused endpoint: `"/v1/debug_endpoints`
+- [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [ ] [[#SQL query execution should return JSON]]
 
 - [ ] **debug_endpoints_subsystemtests.cc**
-	- [ ] Check unused includes in debug_endpoints_subsystemtests.cc
+	- [x] Check unused includes in debug_endpoints_subsystemtests.cc
 	- [ ]  In file **debug_endpoints_subsystemtests.cc** If I got it properly, the test will leave DB not in the state is was initially. This is not a good practice in general; and this is completely not acceptable for this particular case, since after the tests the image may be used in various tasks. But the pre-created JWT tokens can no longer be used to authorize REST requests, since the database has been cleared.
 	- [ ] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
-	- [ ] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
-	- [ ] line 101: UB if vector/list is empty
+	- [x] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
+	- [x] line 101: UB if vector/list is empty
 - [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
 - [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
 - [ ] 
