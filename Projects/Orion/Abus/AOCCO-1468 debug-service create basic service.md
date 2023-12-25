@@ -29,7 +29,7 @@
 - [x] Create Jira task: check if aoc_debug_endpoints are not avaliable in release builds (see [[#18/12/2023]])
 - [x] Copy PyTest settings from Alex's brunch (see [[#18/12/2023]])
 - [x] Пробежаться по всем моим файлам и сохранить, чтобы поправить выравнивание
-- [ ] По всем файлам проверить имена на соответствие camel_ case
+- [x] По всем файлам проверить имена на соответствие camel_ case
 - [x] По всем хедерам проверить, что private members are first
 - [ ] [[#Нужно поправить API тесты]]
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
