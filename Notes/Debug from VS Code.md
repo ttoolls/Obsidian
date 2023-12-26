@@ -15,5 +15,8 @@
 
 CMake может ставить Debug target и Launch target. Как этим пользоваться? Как обратиться к этим переменным, какая их область видимости?
 
+Может быть полезна вот эта статья [Как запускать задачи в VS Code](https://sdivakarrajesh.medium.com/automating-task-to-run-on-startup-in-vscode-fe30d7f99454)
+
+
 
 

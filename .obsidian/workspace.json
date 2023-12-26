@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md",
+                "file": "Notes/Debug from VS Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md",
+                "file": "Notes/Debug from VS Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md",
+                "file": "Notes/Debug from VS Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md"
+                "file": "Notes/Debug from VS Code.md"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
+    "Projects/Orion/Abus/000Information.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "QEMU.md",
     "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
@@ -177,7 +178,6 @@
     "Telegram/Если кому еще нужна австрийска - 20231219224517498.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
     "Notes/Debug from VS Code.md",
-    "Projects/Orion/Abus/000Information.md",
     "Telegram/videos",
     "Notes/Fish shell.md",
     "Notes/tmux.md",
