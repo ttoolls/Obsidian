@@ -32,9 +32,10 @@
 - [x] По всем файлам проверить имена на соответствие camel_ case
 - [x] По всем хедерам проверить, что private members are first
 - [ ] [[#Нужно поправить API тесты]]
-	- [ ] Fix the tests
-	- [ ] Run QEMU
+	- [x] Fix the tests
+	- [x] Run QEMU
 	- [ ] Run two tests
+	- [ ] Improve DELETE  all_users test
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [ ] [[#SQL query execution should return JSON]]
@@ -53,8 +54,10 @@
 	- [x] line 101: UB if vector/list is empty
 - [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
 - [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
-- [ ] How to read errors related to openapi project?
-- [ ] Is it possible to build and test openapi project locally?
+- [x] How to read errors related to openapi project?
+- [x] Is it possible to build and test openapi project locally?
+- [ ] Debug from VS Code doesn't work. Try to fix it
+
 
 
 ## Description

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Debug from VS Code.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Debug from VS Code.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Debug from VS Code.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Debug from VS Code.md"
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
               }
             }
           }
@@ -166,6 +166,7 @@
   },
   "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
+    "Notes/Debug from VS Code.md",
     "Projects/Orion/Abus/000Information.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "QEMU.md",
@@ -177,7 +178,6 @@
     "Telegram/Вакансия Яндекса__базовые алго - 20231221212350341.md",
     "Telegram/Если кому еще нужна австрийска - 20231219224517498.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
-    "Notes/Debug from VS Code.md",
     "Telegram/videos",
     "Notes/Fish shell.md",
     "Notes/tmux.md",
