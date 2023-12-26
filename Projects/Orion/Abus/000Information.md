@@ -15,7 +15,8 @@ make -j6 aoc_debug_endpoints
 
 #### QEMU
 
-sudo ~/Projects/Abus/aoc-device/tools/runqemu-wsl/runqemu.sh /mnt/c/Users/anseliva/Downloads/qemu_image/aoc-full-dev-qemuarm64-20231214064711.qemuboot.conf
+cd ~/Projects/Abus/aoc-device/tools/runqemu-wsl/
+sudo ./runqemu.sh /mnt/c/Users/anseliva/Downloads/qemu_image/aoc-full-dev-qemuarm64-20231214064711.qemuboot.conf
 
 ssh root@192.168.7.2
 

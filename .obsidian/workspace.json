@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Projects/Orion/Abus/000Information.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Projects/Orion/Abus/000Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Projects/Orion/Abus/000Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
+                "file": "Projects/Orion/Abus/000Information.md"
               }
             }
           }
@@ -167,20 +167,23 @@
   "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "QEMU.md",
+    "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
+    "Projects/Untitled.md",
+    "Telegram/__Набор учеников 10-15 лет в М - 20231219224753611.md",
+    "Telegram/VUK WI-FI - 20231219224645586.md",
     "Telegram/А вы в скольких местах из виде - 20231224185917610.md",
+    "Telegram/Вакансия Яндекса__базовые алго - 20231221212350341.md",
+    "Telegram/Если кому еще нужна австрийска - 20231219224517498.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
+    "Notes/Debug from VS Code.md",
+    "Projects/Orion/Abus/000Information.md",
     "Telegram/videos",
     "Notes/Fish shell.md",
-    "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
-    "Telegram/Вакансия Яндекса__базовые алго - 20231221212350341.md",
     "Notes/tmux.md",
-    "Projects/Orion/Abus/000Information.md",
     "Notes/Telegram.md",
     "Daily Notes/2023-12-19.md",
     "Templates/Telegram_msg_tmp.md",
-    "Telegram/__Набор учеников 10-15 лет в М - 20231219224753611.md",
-    "Telegram/VUK WI-FI - 20231219224645586.md",
-    "Telegram/Если кому еще нужна австрийска - 20231219224517498.md",
     "Telegram/photos/photo_83678_1 - 20231219224753598.jpg",
     "Telegram/photos/photo_83678_0 - 20231219224645559.jpg",
     "Telegram/photos",
@@ -192,7 +195,6 @@
     "Notes/Youtube.md",
     "Projects/Orion/Abus",
     "Projects/Orion",
-    "Projects/Untitled.md",
     "Projects"
   ]
 }

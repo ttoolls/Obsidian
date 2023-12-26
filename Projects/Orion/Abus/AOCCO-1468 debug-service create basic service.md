@@ -32,6 +32,9 @@
 - [x] По всем файлам проверить имена на соответствие camel_ case
 - [x] По всем хедерам проверить, что private members are first
 - [ ] [[#Нужно поправить API тесты]]
+	- [ ] Fix the tests
+	- [ ] Run QEMU
+	- [ ] Run two tests
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [ ] [[#SQL query execution should return JSON]]
