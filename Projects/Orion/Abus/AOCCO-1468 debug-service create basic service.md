@@ -35,16 +35,23 @@
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [ ] [[#SQL query execution should return JSON]]
+- [ ]  [[#Resolve subsystem test preconditions]]
+	- [ ] Add precondition
+	- [ ] Save data from t_auth_users
+	- [ ] Save data from t_auth_installer_company
+	- [ ] Add postcondition
+	- [ ] Insert data to the tables
+	- [ ] Test by SELECT
 
 - [ ] **debug_endpoints_subsystemtests.cc**
 	- [x] Check unused includes in debug_endpoints_subsystemtests.cc
-	- [ ]  In file **debug_endpoints_subsystemtests.cc** If I got it properly, the test will leave DB not in the state is was initially. This is not a good practice in general; and this is completely not acceptable for this particular case, since after the tests the image may be used in various tasks. But the pre-created JWT tokens can no longer be used to authorize REST requests, since the database has been cleared.
 	- [ ] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
 	- [x] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
 	- [x] line 101: UB if vector/list is empty
 - [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
 - [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
-- [ ] 
+- [ ] How to read errors related to openapi project?
+- [ ] Is it possible to build and test openapi project locally?
 
 
 ## Description
@@ -88,7 +95,11 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 
 ## Daily notes
-### 25/12/2023
+### 26/12/2023 Tuesday
+Утром работал над openapi - внес правки в соответствии с комментариями Александра к pull-реквесту. Но оно все равно не собирается, Дженкинс кидает ошибку при сборке и тестировании, но для меня не информативную. Хочу спросить у Александра как ее читать и можно ли билдить и тестить openapi локально.
+### 25/12/2023 Monday
+
+Работал над комментариями к pull реквесту:
 ##### Нужно поправить API тесты:
 в файле debug_endpoints_tests.json после
 ```
@@ -123,7 +134,11 @@ if ( build_type === 'Release' ) {
 }
 ```
 
+##### Resolve subsystem test preconditions
+**Alex' comment:** "*In file **debug_endpoints_subsystemtests.cc** If I got it properly, the test will leave DB not in the state is was initially. This is not a good practice in general; and this is completely not acceptable for this particular case, since after the tests the image may be used in various tasks. But the pre-created JWT tokens can no longer be used to authorize REST requests, since the database has been cleared.*"
+Нужно добавить предусловие, вернее, этап перед началом цикла тестов, который считывает и сохраняет содержимое таблиц t_auth_users и t_auth_installer_company. И пост-действие, которое восстанавливает эти данные в этих таблицах.
 
+Ударно поработал, много сделал. Но не успеваю закончить задачу, т.к. Александр уходит на праздники в среду.
 
 
 ### 20/12/2023
