@@ -4,7 +4,8 @@
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
     "folder": "Daily Notes",
-    "enabled": true
+    "enabled": true,
+    "format": "YYYY-MM-DD ddd"
   },
   "weekly": {
     "format": "",
