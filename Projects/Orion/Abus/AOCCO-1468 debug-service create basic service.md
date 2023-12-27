@@ -45,7 +45,13 @@
 	- [ ] Test by SELECT
 
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
+	- [ ] Если нужно, написать клиента
+	- [ ] Написать класс?
+	- [ ] Написать тест
+	- [ ] Закинуть тест в Дженкинс
+	
 - [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
+
 - [ ] Debug from VS Code doesn't work. Try to fix it
 - [ ] Забилить время!!!
 
