@@ -31,21 +31,10 @@
 - [x] Пробежаться по всем моим файлам и сохранить, чтобы поправить выравнивание
 - [x] По всем файлам проверить имена на соответствие camel_ case
 - [x] По всем хедерам проверить, что private members are first
-- [x] [[#Нужно поправить API тесты]]
-	- [x] Fix the tests
-	- [x] Run QEMU
-	- [x] Change active link to imx8
-	- [x] Build debug_endpoints for imx8
-	- [x] Restart the service or QEMU
-	- [x] Run two tests
-	- [x] Improve DELETE  all_users test
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
 - [x] Is it possible to build and test openapi project locally?
-- [ ] [[#SQL query execution should return JSON]]
-	- [x] Add DTOs
-	- [ ] Amend controller
-	- [ ] Amend service
+
 - [ ]  [[#Resolve subsystem test preconditions]]
 	- [ ] Add precondition
 	- [ ] Save data from t_auth_users
@@ -55,14 +44,8 @@
 	- [ ] Insert data to the tables
 	- [ ] Test by SELECT
 
-- [ ] **debug_endpoints_subsystemtests.cc**
-	- [x] Check unused includes in debug_endpoints_subsystemtests.cc
-	- [x] line 101: UB if vector/list is empty
-	- [x] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
-	- [ ] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
-- [x] How to read errors related to openapi project?
 - [ ] Debug from VS Code doesn't work. Try to fix it
 - [ ] Забилить время!!!
 
@@ -110,6 +93,25 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 ## Daily notes
 ### 27/12/2023 Wednesday
+- [x] How to read errors related to openapi project?
+- [x] [[#SQL query execution should return JSON]]
+	- [x] Add DTOs
+	- [x] Amend controller
+	- [x] Amend service
+- [x] **debug_endpoints_subsystemtests.cc**
+	- [x] Check unused includes in debug_endpoints_subsystemtests.cc
+	- [x] line 101: UB if vector/list is empty
+	- [x] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
+	- [x] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
+- [x] [[#Нужно поправить API тесты]]
+	- [x] Fix the tests
+	- [x] Run QEMU
+	- [x] Change active link to imx8
+	- [x] Build debug_endpoints for imx8
+	- [x] Restart the service or QEMU
+	- [x] Run two tests
+	- [x] Improve DELETE  all_users test
+
 Questions:
 - API test: Сначала шлется запрос, а потом анализируется ответ, как это исправить? Нужно, чтобы запрос отправлялся только если Release сборка.
 - Задал вопрос по поводу имени теста, предложенное нормально или нужно другое?
@@ -228,7 +230,13 @@ Body запроса на публикацию MQTT сообщения:
     {
         "topic" : "payload",
         "payload" : "payload"
-    }
+    },
+    {
+        "topic": null,
+        "payload": null
+    },
+    null,
+    null
   ]
 }
 ```
