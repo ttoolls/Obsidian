@@ -34,6 +34,9 @@
 - [ ] [[#Нужно поправить API тесты]]
 	- [x] Fix the tests
 	- [x] Run QEMU
+	- [ ] Change active link to imx8
+	- [ ] Build debug_endpoints for imx8
+	- [ ] Restart the service or QEMU
 	- [ ] Run two tests
 	- [ ] Improve DELETE  all_users test
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
