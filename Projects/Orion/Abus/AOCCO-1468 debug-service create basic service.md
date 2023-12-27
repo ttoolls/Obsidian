@@ -39,9 +39,13 @@
 	- [x] Restart the service or QEMU
 	- [x] Run two tests
 	- [x] Improve DELETE  all_users test
-- [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
+- [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
+- [x] Is it possible to build and test openapi project locally?
 - [ ] [[#SQL query execution should return JSON]]
+	- [x] Add DTOs
+	- [ ] Amend controller
+	- [ ] Amend service
 - [ ]  [[#Resolve subsystem test preconditions]]
 	- [ ] Add precondition
 	- [ ] Save data from t_auth_users
@@ -53,13 +57,12 @@
 
 - [ ] **debug_endpoints_subsystemtests.cc**
 	- [x] Check unused includes in debug_endpoints_subsystemtests.cc
-	- [ ] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
-	- [x] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
 	- [x] line 101: UB if vector/list is empty
-- [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
+	- [x] `TEST_F(Debug_endpoints_Test, GIVEN_clean_state_WHEN_delete_all_users_THEN_success) But the state is not "clean"... (You are inserting some contents into the tables)`
+	- [ ] debug_endpoints_subsystemtests.cc line 70: If the "setup" part of the test is failed, then continuation of the test is meaningless
+- [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
 - [x] How to read errors related to openapi project?
-- [x] Is it possible to build and test openapi project locally?
 - [ ] Debug from VS Code doesn't work. Try to fix it
 - [ ] Забилить время!!!
 
