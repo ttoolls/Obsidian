@@ -224,10 +224,12 @@ Body запроса на публикацию MQTT сообщения:
 
 ```
 {
-  "MQTT messages": {
-    "topic" : "payload",
-    "payload" : "payload"
-  }
+  "mqtt_messages": [
+    {
+        "topic" : "payload",
+        "payload" : "payload"
+    }
+  ]
 }
 ```
 
