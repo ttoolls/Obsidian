@@ -31,14 +31,14 @@
 - [x] Пробежаться по всем моим файлам и сохранить, чтобы поправить выравнивание
 - [x] По всем файлам проверить имена на соответствие camel_ case
 - [x] По всем хедерам проверить, что private members are first
-- [ ] [[#Нужно поправить API тесты]]
+- [x] [[#Нужно поправить API тесты]]
 	- [x] Fix the tests
 	- [x] Run QEMU
-	- [ ] Change active link to imx8
-	- [ ] Build debug_endpoints for imx8
-	- [ ] Restart the service or QEMU
-	- [ ] Run two tests
-	- [ ] Improve DELETE  all_users test
+	- [x] Change active link to imx8
+	- [x] Build debug_endpoints for imx8
+	- [x] Restart the service or QEMU
+	- [x] Run two tests
+	- [x] Improve DELETE  all_users test
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [ ] [[#SQL query execution should return JSON]]
