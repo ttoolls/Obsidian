@@ -57,6 +57,7 @@
 - [x] How to read errors related to openapi project?
 - [x] Is it possible to build and test openapi project locally?
 - [ ] Debug from VS Code doesn't work. Try to fix it
+- [ ] Забилить время!!!
 
 
 
@@ -101,6 +102,12 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 
 ## Daily notes
+### 27/12/2023 Wednesday
+Questions:
+- API test: Сначала шлется запрос, а потом анализируется ответ, как это исправить? Нужно, чтобы запрос отправлялся только если Release сборка.
+- Задал вопрос по поводу имени теста, предложенное нормально или нужно другое?
+- Что делать, если setup тестов провалился? см. debug_endpoints_subsystemtest.cc комментарий к строке 70
+- openapi все еще не билдится
 ### 26/12/2023 Tuesday
 Утром работал над openapi - внес правки в соответствии с комментариями Александра к pull-реквесту. Но оно все равно не собирается, Дженкинс кидает ошибку при сборке и тестировании, но для меня не информативную. Хочу спросить у Александра как ее читать и можно ли билдить и тестить openapi локально.
 ### 25/12/2023 Monday
