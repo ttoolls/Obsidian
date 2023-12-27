@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c0d7a995071ac4b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Draft.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
+                "file": "Draft.md"
               }
             }
           }
@@ -164,10 +177,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9f4086fde4052e6",
+  "active": "c0d7a995071ac4b7",
   "lastOpenFiles": [
-    "Notes/Debug from VS Code.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "Draft.md",
+    "Notes/Debug from VS Code.md",
     "Projects/Orion/Abus/000Information.md",
     "Daily Notes/2023-12-27 Wed.md",
     "Daily Notes/2023-12-19.md",
