@@ -234,9 +234,7 @@ Body запроса на публикацию MQTT сообщения:
  Body for SQL:
 ```
 {
-	"sql_queries": [
-		"SELECT COUNT(*) FROM control_data.t_auth_users"
-	]
+    "sql_queries": [ "SELECT COUNT(*) FROM control_data.t_auth_users", null, null ]
 }
 ```
 

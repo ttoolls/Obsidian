@@ -60,4 +60,22 @@ pm.test("authorization_test", function()
     pm.response.to.be.json;
     var data = pm.response.json();
     pm.globals.set("jwt_value", data.access_token);
-})```
+})
+```
+
+v1/debug_endpoints/sql_query body:
+```
+{
+    "sql_queries": [ "SELECT COUNT(*) FROM control_data.t_auth_users", null, null ]
+}
+```
+
+v1/debug_endpoints/mq_message body:
+```
+{
+  "MQTT messages": {
+    "topic" : "payload",
+    "payload" : "payload"
+  }
+}
+```
