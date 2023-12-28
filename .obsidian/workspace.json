@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md",
+                "file": "Notes/GDB.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md",
+                "file": "Notes/GDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md",
+                "file": "Notes/GDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Orion/Abus/000Information.md"
+                "file": "Notes/GDB.md"
               }
             }
           }
@@ -161,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 301.5
+    "width": 225.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,8 +180,12 @@
   "active": "c0d7a995071ac4b7",
   "lastOpenFiles": [
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
-    "Projects/Orion/Abus/000Information.md",
+    "Notes/GDB.md",
     "Notes/Youtube.md",
+    "Projects/Orion/Abus/000Information.md",
+    "Telegram/ - 20231228084840097.md",
+    "Telegram/photos/photo_83678_3 - 20231228084840073.jpg",
+    "Telegram/Книжица в школу для оценок - 20231228084836511.md",
     "Draft.md",
     "Notes/Debug from VS Code.md",
     "Daily Notes/2023-12-27 Wed.md",
