@@ -73,9 +73,17 @@ v1/debug_endpoints/sql_query body:
 v1/debug_endpoints/mq_message body:
 ```
 {
-  "MQTT messages": {
-    "topic" : "payload",
-    "payload" : "payload"
-  }
+  "mqtt_messages": [
+    {
+        "topic" : "payload",
+        "payload" : "payload"
+    },
+    {
+        "topic": null,
+        "payload": null
+    },
+    null,
+    null
+  ]
 }
 ```

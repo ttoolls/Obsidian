@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Projects/Orion/Abus/000Information.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Projects/Orion/Abus/000Information.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
+                "file": "Projects/Orion/Abus/000Information.md"
               }
             }
           }
@@ -176,10 +177,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "e9f4086fde4052e6",
+  "active": "c0d7a995071ac4b7",
   "lastOpenFiles": [
-    "Projects/Orion/Abus/000Information.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "Projects/Orion/Abus/000Information.md",
     "Notes/Youtube.md",
     "Draft.md",
     "Notes/Debug from VS Code.md",
