@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/GDB.md",
+                "file": "Notes/Pyton.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/GDB.md",
+                "file": "Notes/Pyton.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/GDB.md",
+                "file": "Notes/Pyton.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/GDB.md"
+                "file": "Notes/Pyton.md"
               }
             }
           }
@@ -179,8 +179,10 @@
   },
   "active": "c0d7a995071ac4b7",
   "lastOpenFiles": [
-    "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "Лучшие проекты для начинающих.md",
+    "Notes/Pyton.md",
     "Notes/GDB.md",
+    "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "Notes/Youtube.md",
     "Projects/Orion/Abus/000Information.md",
     "Telegram/ - 20231228084840097.md",
