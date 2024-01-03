@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/Pyton.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/Pyton.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/Pyton.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +138,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/Pyton.md"
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
               }
+            }
+          },
+          {
+            "id": "7b256c86d0b9da77",
+            "type": "leaf",
+            "state": {
+              "type": "example-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "1df9e7180fed7770",
@@ -161,7 +169,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 225.5
+    "width": 392.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -174,13 +182,16 @@
       "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false
+      "periodic-notes:Open today": false,
+      "obsidian-habitica-integration:Open Habitica Pane": false
     }
   },
-  "active": "c0d7a995071ac4b7",
+  "active": "7b256c86d0b9da77",
   "lastOpenFiles": [
-    "Лучшие проекты для начинающих.md",
     "Notes/Pyton.md",
+    "Telegram/Цели на год__Пройти курс по Py - 20240102115231255.md",
+    "Telegram/Надо бы подвести какие-то итог - 20240102113017916.md",
+    "Лучшие проекты для начинающих.md",
     "Notes/GDB.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "Notes/Youtube.md",

@@ -2,10 +2,13 @@
 ## Learn
 [Linux и Unix инструменты](https://www.youtube.com/playlist?list=PLAk6CfuV7hyqHyQVHZMQRihAfebXpxn2O)
 - [x] [[tmux]]
-- [ ] [[Fish shell]]
+- [x] [[Fish shell]]
 - [ ] [[CMake]]
 - [ ] [[QEMU]]
 - [ ] [[Debug from VS Code]]
+- [ ] [[GDB]]
+- [ ] [[Pyton]]
+- [ ] SQL
 ## Current Tasks:
 - [x] Create endpoint, which allows to execute arbitrary SQL queries   Body shall contain a list of SQL-query-strings, which are executed as a single transaction, one by one, in the order they are provided  
 - [x] Create endpoint, which allows to send custom mqtt message to custom topic Body: string:    string: payload  
@@ -45,7 +48,7 @@
 	- [ ] Test by SELECT
 
 - [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
-	- [ ] Если нужно, написать клиента
+	- [x] Если нужно, написать клиента
 	- [ ] Написать класс?
 	- [ ] Написать тест
 	- [ ] Закинуть тест в Дженкинс
