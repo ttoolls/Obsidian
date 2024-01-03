@@ -40,10 +40,10 @@
 - [x] Is it possible to build and test openapi project locally?
 
 - [ ]  [[#Resolve subsystem test preconditions]]
-	- [ ] Add precondition
+	- [x] Add precondition
 	- [ ] Save data from t_auth_users
 	- [ ] Save data from t_auth_installer_company
-	- [ ] Add postcondition
+	- [x] Add postcondition
 	- [ ] Clear database and check
 	- [ ] Insert data to the tables
 	- [ ] Test by SELECT
