@@ -8,8 +8,8 @@
 - [ ] [[Debug from VS Code]]
 - [ ] [[GDB]]
 - [ ] [[Pyton]]
-- [ ] SQL
-- [ ] GTest
+- [ ] [[SQL]]
+- [ ] [[GTest]]
 ## Current Tasks:
 - [x] Create endpoint, which allows to execute arbitrary SQL queries   Body shall contain a list of SQL-query-strings, which are executed as a single transaction, one by one, in the order they are provided  
 - [x] Create endpoint, which allows to send custom mqtt message to custom topic Body: string:    string: payload  
@@ -41,6 +41,8 @@
 
 - [ ]  [[#Resolve subsystem test preconditions]]
 	- [x] Add precondition
+	- [x] Create classes to store data from tables
+	- [ ] How to get the data?
 	- [ ] Save data from t_auth_users
 	- [ ] Save data from t_auth_installer_company
 	- [x] Add postcondition
