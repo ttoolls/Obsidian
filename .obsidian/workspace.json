@@ -182,8 +182,8 @@
       "audio-recorder:Start/stop recording": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false,
-      "periodic-notes:Open today": false,
-      "obsidian-habitica-integration:Open Habitica Pane": false
+      "obsidian-habitica-integration:Open Habitica Pane": false,
+      "periodic-notes:Open today": false
     }
   },
   "active": "7b256c86d0b9da77",
