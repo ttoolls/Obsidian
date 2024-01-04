@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/ABUS Task Template.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "mode": "source",
                 "source": false
               }
@@ -81,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 299.5
   },
   "right": {
     "id": "d293d5fde34d29a5",
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/ABUS Task Template.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/ABUS Task Template.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/ABUS Task Template.md"
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
               }
             }
           },
@@ -185,11 +185,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "eeb78789061c0d28",
+  "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
-    "Templates/Telegram_msg_tmp.md",
-    "Templates/ABUS Task Template.md",
+    "Telegram/Возможно мы по-разному понимае - 20240104155420909.md",
+    "Daily Notes/2024-01-04 Thu.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "Daily Notes/Итоги 2023 года.md",
+    "Templates/ABUS Task Template.md",
+    "Templates/Telegram_msg_tmp.md",
     "Notes/Current Tasks.md",
     "Notes/Learn.md",
     "Notes/tmux.md",
@@ -199,9 +202,7 @@
     "Notes/Debug from VS Code.md",
     "Untitled.canvas",
     "Telegram/Консультация гастроэнтеролога_ - 20240104095628780.md",
-    "Daily Notes/2024-01-04 Thu.md",
     "Daily Notes/Цели на 2024 год.md",
-    "Daily Notes/Надо бы подвести какие-то итог - 20240102113017916.md",
     "Лучшие проекты для начинающих.md",
     "Notes/Youtube.md",
     "Projects/Orion/Abus/000Information.md",
@@ -214,7 +215,6 @@
     "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
     "Projects/Untitled.md",
     "Telegram/__Набор учеников 10-15 лет в М - 20231219224753611.md",
-    "Telegram/VUK WI-FI - 20231219224645586.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
     "Telegram/videos",
     "Telegram/photos/photo_83678_1 - 20231219224753598.jpg",
