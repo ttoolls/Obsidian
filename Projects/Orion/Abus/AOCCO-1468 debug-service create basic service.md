@@ -1,16 +1,11 @@
 ## [AOCCO-1468] debug-service: create basic service
-## Learn
-[Linux и Unix инструменты](https://www.youtube.com/playlist?list=PLAk6CfuV7hyqHyQVHZMQRihAfebXpxn2O)
-- [x] [[tmux]]
-- [x] [[Fish shell]]
-- [ ] [[CMake]]
-- [ ] [[QEMU]]
-- [ ] [[Debug from VS Code]]
-- [ ] [[GDB]]
-- [ ] [[Pyton]]
-- [ ] [[SQL]]
-- [ ] [[GTest]]
-## Current Tasks:
+
+![[Learn]]
+
+![[Current Tasks]]
+
+
+## Done
 - [x] Create endpoint, which allows to execute arbitrary SQL queries   Body shall contain a list of SQL-query-strings, which are executed as a single transaction, one by one, in the order they are provided  
 - [x] Create endpoint, which allows to send custom mqtt message to custom topic Body: string:    string: payload  
 - [x] Add endpoint to controller  
@@ -38,30 +33,6 @@
 - [x] Delete unused endpoint: `"/v1/debug_endpoints`
 - [x] debug_endpoints_service.cc line 17: UB, if first/second is nullptr
 - [x] Is it possible to build and test openapi project locally?
-
-- [ ]  [[#Resolve subsystem test preconditions]]
-	- [x] Add precondition
-	- [x] Create classes to store data from tables
-	- [ ] How to get the data?
-	- [ ] Save data from t_auth_users
-	- [ ] Save data from t_auth_installer_company
-	- [x] Add postcondition
-	- [ ] Clear database and check
-	- [ ] Insert data to the tables
-	- [ ] Test by SELECT
-
-- [ ] Add Python test _def test_WHEN_execute_sql_query_THEN_results_are_visible(self):_
-	- [x] Если нужно, написать клиента
-	- [ ] Написать класс?
-	- [ ] Написать тест
-	- [ ] Закинуть тест в Дженкинс
-	
-- [ ] test_debug_endpoints.py name test_WHEN_post_debug_endpoints_THEN_user_created_mqtt_trigger(self) is wrong
-
-- [ ] Debug from VS Code doesn't work. Try to fix it
-- [ ] Забилить время!!!
-
-
 
 ## Description
 

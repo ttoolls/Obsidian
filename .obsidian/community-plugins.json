@@ -4,5 +4,6 @@
   "templater-obsidian",
   "obsidian-git",
   "periodic-notes",
-  "telegram-sync"
+  "telegram-sync",
+  "obsidian-spaced-repetition"
 ]
