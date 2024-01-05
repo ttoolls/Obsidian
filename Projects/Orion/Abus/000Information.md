@@ -87,3 +87,15 @@ v1/debug_endpoints/mq_message body:
   ]
 }
 ```
+
+
+
+I wrote something like this:
+class MyClass
+{
+public:
+	static int test;
+	static void test_method(){ test = 15;}
+}
+
+And got error from gcc: undefined reference to MyClass::test'. What may be the reason?
