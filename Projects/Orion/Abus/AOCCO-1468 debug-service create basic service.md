@@ -75,6 +75,23 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 
 ## Daily notes
+### 5/01/2024 Friday
+Result of SELECT:
+```
+id |              email_address               | is_email_address_read_only | is_administrator | is_logged_installer_login | first_name |      last_name      | description 
+----+------------------------------------------+----------------------------+-------------
+-----+---------------------------+------------+---------------------+-------------
+ 13 | tectiq_administrator_1_local@abus-sc.com | t                          | t           
+     | f                         | Anton      | Admin               | 
+ 14 | tectiq_administrator_2_local@abus-sc.com | t                          | t           
+     | f                         | Bingo      | Bingo               | 
+ 15 | tectiq_administrator_3@abus-sc.com       | t                          | t           
+     | f                         | TheThird   | TectiqAdministrator | 
+ 16 | tectiq_administrator_4@abus-sc.com       | t                          | t           
+     | f                         | TheFourth  | TectiqAdministrator |
+```
+
+
 ### 27/12/2023 Wednesday
 - [x] How to read errors related to openapi project?
 - [x] [[#SQL query execution should return JSON]]

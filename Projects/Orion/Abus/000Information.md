@@ -39,6 +39,9 @@ psql -U dbms_admin -d aoc_data
 **Reset database**
 sudo -u postgres -H sh -c ~/Projects/Abus/aoc-device/resources/database/experimental_hard_reset_db.sh
 
+**SQL Queries**
+SELECT * FROM control_data.t_auth_users
+
 #### Postman
 
 host_address 172.24.98.168
@@ -90,12 +93,3 @@ v1/debug_endpoints/mq_message body:
 
 
 
-I wrote something like this:
-class MyClass
-{
-public:
-	static int test;
-	static void test_method(){ test = 15;}
-}
-
-And got error from gcc: undefined reference to MyClass::test'. What may be the reason?
