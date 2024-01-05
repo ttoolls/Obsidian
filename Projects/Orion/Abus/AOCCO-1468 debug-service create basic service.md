@@ -76,7 +76,8 @@ The debug-service will later be used to e.g. GET sensitive information, e.g. DB-
 
 ## Daily notes
 ### 5/01/2024 Friday
-Result of SELECT:
+
+SELECT * FROM control_data.t_auth_users:
 ```
 id |              email_address               | is_email_address_read_only | is_administrator | is_logged_installer_login | first_name |      last_name      | description 
 ----+------------------------------------------+----------------------------+-------------
@@ -89,6 +90,12 @@ id |              email_address               | is_email_address_read_only | is_
      | f                         | TheThird   | TectiqAdministrator | 
  16 | tectiq_administrator_4@abus-sc.com       | t                          | t           
      | f                         | TheFourth  | TectiqAdministrator |
+```
+
+
+SELECT * FROM control_data.t_auth_installer_company:
+```
+id | navision_id | is_allowed | name | address | telephone | description
 ```
 
 
