@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Notes/C++/Владимиров Константин Игоревич.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Notes/C++/Владимиров Константин Игоревич.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "file": "Notes/C++/Владимиров Константин Игоревич.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
+                "file": "Notes/C++/Владимиров Константин Игоревич.md"
               }
             }
           },
@@ -187,11 +187,13 @@
   },
   "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
+    "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+    "Notes/C++/Владимиров Константин Игоревич.md",
+    "Notes/C++",
     "Notes/GDB.md",
     "Telegram/#гастроэнтеролог #гепатолог__П - 20240105224101465.md",
     "Notes/Learn.md",
     "Notes/Debug from VS Code.md",
-    "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "Projects/Orion/Abus/000Information.md",
     "Telegram/Возможно мы по-разному понимае - 20240104155420909.md",
     "Daily Notes/2024-01-04 Thu.md",
@@ -214,7 +216,6 @@
     "Daily Notes/2023-12-27 Wed.md",
     "Daily Notes/2023-12-19.md",
     "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
-    "Projects/Untitled.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
     "Telegram/videos",
     "Telegram/photos/photo_83678_1 - 20231219224753598.jpg",
@@ -226,7 +227,6 @@
     "Images/Pasted image 20231219064138.png",
     "Images",
     "Projects/Orion/Abus",
-    "Projects/Orion",
-    "Projects"
+    "Projects/Orion"
   ]
 }
