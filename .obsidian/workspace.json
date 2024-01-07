@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/GDB.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/GDB.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/GDB.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/GDB.md"
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md"
               }
             }
           },
@@ -187,6 +187,8 @@
   },
   "active": "e9f4086fde4052e6",
   "lastOpenFiles": [
+    "Notes/GDB.md",
+    "Telegram/#гастроэнтеролог #гепатолог__П - 20240105224101465.md",
     "Notes/Learn.md",
     "Notes/Debug from VS Code.md",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
@@ -200,7 +202,6 @@
     "Notes/tmux.md",
     "Notes/QEMU.md",
     "Notes/Pyton.md",
-    "Notes/GDB.md",
     "Untitled.canvas",
     "Telegram/Консультация гастроэнтеролога_ - 20240104095628780.md",
     "Daily Notes/Цели на 2024 год.md",
@@ -214,7 +215,6 @@
     "Daily Notes/2023-12-19.md",
     "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
     "Projects/Untitled.md",
-    "Telegram/__Набор учеников 10-15 лет в М - 20231219224753611.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
     "Telegram/videos",
     "Telegram/photos/photo_83678_1 - 20231219224753598.jpg",

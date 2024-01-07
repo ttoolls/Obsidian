@@ -99,6 +99,74 @@ id | navision_id | is_allowed | name | address | telephone | description
 ```
 
 
+```
+,
+
+            (
+
+            'tectiq_administrator_1_local@abus-sc.com',
+
+            true,
+
+            true,
+
+            false,
+
+            'Anton',
+
+            'Admin'
+
+        ),
+
+        (
+
+            'tectiq_administrator_2_local@abus-sc.com',
+
+            true,
+
+            true,
+
+            false,
+
+            'Bingo',
+
+            'Bingo'
+
+        ),
+
+        (
+
+            'tectiq_administrator_3@abus-sc.com',
+
+            true,
+
+            true,
+
+            false,
+
+            'TheThird',
+
+            'TectiqAdministrator'
+
+        ),
+
+        (
+
+            'tectiq_administrator_4@abus-sc.com',
+
+            true,
+
+            true,
+
+            false,
+
+            'TheFourth',
+
+            'TectiqAdministrator'
+
+        )
+```
+
 ### 27/12/2023 Wednesday
 - [x] How to read errors related to openapi project?
 - [x] [[#SQL query execution should return JSON]]
