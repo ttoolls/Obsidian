@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Notes/C++/Владимиров Константин Игоревич.md",
+                "file": "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "522bb8a2bb4e2d24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Orion/Abus/Drafts/2024-01-08 Python test for SQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Notes/C++/Владимиров Константин Игоревич.md",
+                "file": "Projects/Orion/Abus/Drafts/2024-01-08 Python test for SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Notes/C++/Владимиров Константин Игоревич.md",
+                "file": "Projects/Orion/Abus/Drafts/2024-01-08 Python test for SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notes/C++/Владимиров Константин Игоревич.md"
+                "file": "Projects/Orion/Abus/Drafts/2024-01-08 Python test for SQL.md"
               }
             }
           },
@@ -185,8 +198,11 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e9f4086fde4052e6",
+  "active": "522bb8a2bb4e2d24",
   "lastOpenFiles": [
+    "Notes/Current Tasks.md",
+    "Projects/Orion/Abus/Drafts/2024-01-08 Python test for SQL.md",
+    "Projects/Orion/Abus/Drafts",
     "Projects/Orion/Abus/AOCCO-1468 debug-service create basic service.md",
     "Notes/C++/Владимиров Константин Игоревич.md",
     "Notes/C++",
@@ -200,7 +216,6 @@
     "Daily Notes/Итоги 2023 года.md",
     "Templates/ABUS Task Template.md",
     "Templates/Telegram_msg_tmp.md",
-    "Notes/Current Tasks.md",
     "Notes/tmux.md",
     "Notes/QEMU.md",
     "Notes/Pyton.md",
@@ -215,7 +230,6 @@
     "Draft.md",
     "Daily Notes/2023-12-27 Wed.md",
     "Daily Notes/2023-12-19.md",
-    "Telegram/DL-разработчик роботизированно - 20231221212706311.md",
     "Telegram/videos/video_83678_2 - 20231224185917490.mp4",
     "Telegram/videos",
     "Telegram/photos/photo_83678_1 - 20231219224753598.jpg",
@@ -226,7 +240,6 @@
     "Daily Notes",
     "Images/Pasted image 20231219064138.png",
     "Images",
-    "Projects/Orion/Abus",
-    "Projects/Orion"
+    "Projects/Orion/Abus"
   ]
 }
